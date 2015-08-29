@@ -38,7 +38,7 @@
 
         // Add light
         var directionalLight = new THREE.DirectionalLight(0xffff55, 1);
-        directionalLight.position.set(-600, 300, 600);
+        directionalLight.position.set(0, 150, 600);
         this.scene.add(directionalLight);
 
         // Load textures
