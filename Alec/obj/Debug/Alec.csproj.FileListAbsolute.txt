@@ -1,0 +1,6 @@
+c:\users\v-altiet\documents\visual studio 2013\Projects\Alec\Alec\bin\Alec.dll.config
+c:\users\v-altiet\documents\visual studio 2013\Projects\Alec\Alec\bin\Alec.dll
+c:\users\v-altiet\documents\visual studio 2013\Projects\Alec\Alec\bin\Alec.pdb
+c:\users\v-altiet\documents\visual studio 2013\Projects\Alec\Alec\obj\Debug\Alec.csprojResolveAssemblyReference.cache
+c:\users\v-altiet\documents\visual studio 2013\Projects\Alec\Alec\obj\Debug\Alec.dll
+c:\users\v-altiet\documents\visual studio 2013\Projects\Alec\Alec\obj\Debug\Alec.pdb
