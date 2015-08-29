@@ -72,6 +72,7 @@ li a:hover {
 #about {
     position: relative;
     height: 100%;
+    display: none;
 }
 
     #about h2 {
@@ -93,11 +94,13 @@ li a:hover {
         position: relative;
         top: -74px;
         left: 160px;
+        z-index:4;
     }
 
 #portfolio {
     position: relative;
     height: 100%;
+    display: none;
 }
 
     #portfolio span {
@@ -117,7 +120,7 @@ li a:hover {
     }
 
     #portfolio p:last-child {
-        padding-bottom:40px;
+        padding-bottom: 40px;
     }
 
 #alert {
