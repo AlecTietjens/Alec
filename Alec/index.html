@@ -8,13 +8,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
     <script src="ng/angular-pageslide-directive.js"></script>
     <script>
-        if (window.location.href == "http://tietjens.com")
-            window.location.replace("http://alec.tietjens.com");
         var app = angular.module("app", ["pageslide-directive"]);
         app.controller('pageslideCtrl', ['$scope', function ($scope) {
             $scope.options = { 'about': false, 'portfolio': false };
             $scope.numItems = 2;
             $scope.toggle = function (option) {
+                document.getElementById('me').style.display = "block";
                 if (!$scope.options[option]) {
                     for (var o in $scope.options) {
                         if ($scope.options[o])
@@ -46,7 +45,7 @@
                 <div pageslide ps-open="options['about']" ps-zindex="3" ps-side="left" ps-speed="0.6" id="about">
                     <div style="padding:20px" class="slide-panel">
                         <h2>About Me</h2>
-                        <img src="images/me.png" />
+                        <img src="images/me.png" id="me" />
                         <p>
                             Once upon a time, in a land far, far away, there was a child born.. in Kansas.. and that child was me! You can now find me chasing my dreams and passions in the wonderful city of Seattle.<br /><br />
                             I've always had a passion for art, music, and technology. I've also more recently come to the realization that I have a passion for being a great individual to others and the thing we call Earth
@@ -88,11 +87,10 @@
                 </div>
             </li>
         </ul>
-
-        <a href="http://github.com/AlecTietjens"><img src="images/github.png" /></a>
         <a href="https://www.linkedin.com/in/alectietjens"><img src="images/linkedin.png" /></a>
+        <a href="http://github.com/AlecTietjens"><img src="images/github.png" /></a>
         <a href="https://www.facebook.com/alec.tietjens"><img src="images/facebook.png" /></a>
-        <a href="mailto:alec@tietjens.com"><img src="images/email.png" /></a>
+        <a href="mailto:alec@tietjens.com">alec@tietjens.com</a>
     </div>
 
 

@@ -27,16 +27,12 @@ window.onload = function () {
     SUNSET_WATER.resize(WINDOW.width, WINDOW.height);
 
     animate();
-
-    var aboutContainer = document.getElementById('about');
-    Ps.initialize(aboutContainer);
-    Ps.update(aboutContainer);
-
-    var portfolioContainer = document.getElementById('portfolio');
-    Ps.initialize(portfolioContainer);
-    Ps.update(portfolioContainer);
-
-    setTimeout(function () { document.getElementById('about').style.display = 'block'; }, 2000);
-    setTimeout(function () { document.getElementById('portfolio').style.display = 'block'; }, 2000);
-
 }
+
+var aboutContainer = document.getElementById('about');
+Ps.initialize(aboutContainer);
+Ps.update(aboutContainer);
+
+var portfolioContainer = document.getElementById('portfolio');
+Ps.initialize(portfolioContainer);
+Ps.update(portfolioContainer);

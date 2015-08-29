@@ -50,6 +50,12 @@ div#menu {
         padding-right: 20px;
     }
 
+    div#menu > a:last-child {
+        position:relative;
+        margin-top:6px;
+        font-size:20px;
+    }
+
 canvas {
     position: absolute;
     background-color: white;
@@ -72,7 +78,6 @@ li a:hover {
 #about {
     position: relative;
     height: 100%;
-    display: none;
 }
 
     #about h2 {
@@ -95,12 +100,12 @@ li a:hover {
         top: -74px;
         left: 160px;
         z-index:4;
+        display:none;
     }
 
 #portfolio {
     position: relative;
     height: 100%;
-    display: none;
 }
 
     #portfolio span {
