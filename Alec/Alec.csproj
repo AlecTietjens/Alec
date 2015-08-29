@@ -57,8 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\email.png" />
+    <Content Include="images\facebook.png" />
     <Content Include="images\github.png" />
     <Content Include="images\linkedin.png" />
+    <Content Include="images\me.png" />
     <Content Include="index.html" />
     <Content Include="ng\angular-pageslide-directive.js" />
     <Content Include="scripts\main.js" />
